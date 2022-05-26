@@ -1,0 +1,50 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+      background-image: url(/img/bg-friday.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: min-content;
+    width: 25%;
+    height: 100%;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 37%;
+    margin-top: 18%;
+    background-color: rgba(83, 226, 245, 0.836);
+}
+
+h2 {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: rgba(248, 95, 39, 0.993);
+    font-size: 76px;
+}
+
+ h3 {
+    color: blue;
+    font-size: 40px;
+ }
+
